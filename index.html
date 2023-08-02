@@ -7,12 +7,12 @@
     <title>Vi Associates</title>
     <link rel="logo" href="./images/vi.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="loco.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script type="module" src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Hind:wght@300&family=IBM+Plex+Sans&family=Josefin+Sans:wght@100&family=Mulish:wght@300;400;500;700&family=Poppins:wght@200;500&family=Roboto&family=Roboto+Slab:wght@300;400&family=Satisfy&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap"
         rel="stylesheet">
@@ -25,26 +25,31 @@
 </head>
 
 <body>
+
     <div id="loader-container">
         <div id="loader"></div>
     </div>
-    <div id="top"></div>
-    <div id="main">
 
-        <div id="nav">
-            <a href="" class="logo">
-                <h2>V<span style="color: #F3F33B;">I</span> Associates</h2>
-            </a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="#top">Home</li></a>
-                    <li><a href="#services">Services</li></a>
-                    <li><a href="#policy">Policies</li></a>
-                    <li><a href="">Client</li></a>
-                    <li><a href="">Contact</li></a>
-                </ul>
-            </div>
+
+
+
+    <div id="top"></div>
+
+    <div id="nav">
+        <a href="" class="logo">
+            <h2>V<span style="color: #F3F33B;">I</span> Associates</h2>
+        </a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#top">Home</li></a>
+                <li><a href="#services">Services</li></a>
+                <li><a href="#policy">Policies</li></a>
+                <li><a href="#client">Client</li></a>
+                <li><a href="#contact">Contact</li></a>
+            </ul>
         </div>
+    </div>
+    <div id="main">
 
 
         <div class="hero-content">
@@ -53,12 +58,13 @@
 
                 <h3 style="margin-bottom: 20px;">Welcome to <br></h3>
 
-                <h1
-                   id="landing-title" style=" padding: 10px 0px; font-size: 3.5rem; color: #000000e3;  margin: 20px 0px; font-family: poppins;">
+                <h1 id="landing-title"
+                    style=" padding: 10px 0px; font-size: 3.5rem; color: #000000e3;  margin: 20px 0px; font-family: poppins;">
                     <span>V<span style="color: #F3F33B;">I</span> Associates</span>
                 </h1>
 
-                <h5 style="font-size: 0.85rem; line-height: 24px;">We, <span style="color: #381DFC; font-weight: 800;">V.I.Associates</span> would like to introduce
+                <h5 style="font-size: 0.85rem; line-height: 24px;">We, <span
+                        style="color: #381DFC; font-weight: 800;">V.I.Associates</span> would like to introduce
                     ourselves as one of familiar H.R. & Factories
                     Consultant. We are in the field for more than 15 years and working with very efficient
                     consultants
@@ -91,7 +97,8 @@
 
         </div>
         <div class="hero-content2">
-            <h2 id="landing-title2" class="landing-title2 reveal" style="text-align: center; margin-bottom: 20px; font-size: 2.5rem;">Best Workplace For Services</h2>
+            <h2 id="landing-title2" class="landing-title2 reveal"
+                style="text-align: center; margin-bottom: 20px; font-size: 2.5rem;">Best Workplace For Services</h2>
             <h4 style="text-align: center; margin-bottom: 30px;">We are doing the following consulting services at
                 affordable rates to the customer satisfaction.</h4>
 
@@ -249,77 +256,199 @@
         </div>
 
         <div id="policy">
-            <h1 style="font-size: 2.5rem; text-align: center; position: relative; top: 3rem;" class="ourpolicy">Our Quality Policy</h1>
+            <h1 style="font-size: 2.5rem; text-align: center; position: relative; top: 3rem;" class="ourpolicy">Our
+                Quality Policy</h1>
             <div class="policy-text">
 
 
-                    <div class="thepolicy reveal">
+                <div class="thepolicy reveal">
 
-                        <h3>Our Policy</h3>
-                        <h5 style="text-align: center;">V.I. Associates is committed to strive ensuring and enhancing customer (client) satisfaction
-                            through
-                            timely supply of quality Services as per requirement, on mutually agreed standards.
+                    <h3>Our Policy</h3>
+                    <h5 style="text-align: center;">V.I. Associates is committed to strive ensuring and enhancing
+                        customer (client) satisfaction
+                        through
+                        timely supply of quality Services as per requirement, on mutually agreed standards.
 
-                            V.I. Associates makes all possible efforts to prevent pollution and minimize dust and
-                            fugitive
-                            emission from all its activities.</h5>
+                        V.I. Associates makes all possible efforts to prevent pollution and minimize dust and
+                        fugitive
+                        emission from all its activities.</h5>
 
-                        </div>
-                        <div class="policyimg reveal">
-                           <img src="./images/bg14.png" alt="">
-                        </div>   
+                </div>
+                <div class="policyimg reveal">
+                    <img src="./images/bg14.png" alt="">
+                </div>
 
-                    <div class="vision reveal">
+                <div class="vision reveal">
 
-                        <h3>Vision</h3>
-                        <h5>We as professional EHS consultants at V.I.A steer and assist our customers, implement the
-                            highest
-                            standard of statutory compliances, environment, health & safety on and off work premises.
-                        </h5>
+                    <h3>Vision</h3>
+                    <h5>We as professional EHS consultants at V.I.A steer and assist our customers, implement the
+                        highest
+                        standard of statutory compliances, environment, health & safety on and off work premises.
+                    </h5>
 
-                    </div>
+                </div>
 
-                    <div class="mission reveal">
+                <div class="mission reveal">
 
-                        <h3>Mission</h3>
-                        <h5>Create EHS & statutory awareness through periodic training events: implement newest and
-                            highest
-                            standards of statutory & safety at affordable prices, offer quality service and endeavour in
-                            customer satisfaction.</h5>
+                    <h3>Mission</h3>
+                    <h5>Create EHS & statutory awareness through periodic training events: implement newest and
+                        highest
+                        standards of statutory & safety at affordable prices, offer quality service and endeavour in
+                        customer satisfaction.</h5>
 
-                    </div>
+                </div>
 
-                    <div class="strength reveal">
+                <div class="strength reveal">
 
-                        <h3>Our Strength</h3>
-                        <h5>We have strong support from the following departments:</h5>
-                        <ul>
-                            <li>Directorate of industrial safety & health</li>
-                            <li>Tamil Nadu pollution control board</li>
-                            <li>Petroleum and explosives safety organization</li>
-                            <li>Tamil Nadu fire & rescue service department</li>
-                            <li>Tamil Nadu district collectorate</li>
-                            <li>Tamil Nadu Sipcot office</li>
-                        </ul>
-                    </div>
+                    <h3>Our Strength</h3>
+                    <h5>We have strong support from the following departments:</h5>
+                    <ul>
+                        <li>Directorate of industrial safety & health</li>
+                        <li>Tamil Nadu pollution control board</li>
+                        <li>Petroleum and explosives safety organization</li>
+                        <li>Tamil Nadu fire & rescue service department</li>
+                        <li>Tamil Nadu district collectorate</li>
+                        <li>Tamil Nadu Sipcot office</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
 
+        <div id="client">
+            <h1 style="font-size: 2.5rem; text-align: center; position: relative; top: 3rem;" class="ourpolicy">Our
+                Leading Client Base</h1>
+
+
+            <div class="client-list reveal">
+                <li class="reveal">FORD MOTORS LIMITED - MARAIMALAI NAGAR</li>
+                <li class="reveal">SUNDARAM FASTENERS LIMITED - PADI</li>
+                <li class="reveal">T.I.CYCLES - AVADI</li>
+                <li class="reveal">AMALGAMATIONS VALEO CLUTCH PVT.LTD - ORAGADAM </li>
+                <li class="reveal">IRUNA INDIAN BRAKES PVT.LTD</li>
+                <li class="reveal">Aachi Masala Foods – All Factories</li>
+                <li class="">BASF – Mahendra City</li>
+                <li class="">Tube Products of India – Avadi</li>
+                <li class="">Apex Laboratories – Alathur, Kancheepuram</li>
+                <li>Sathya Auto Pvt. Ltd – Mappedu, Thirumalisai (2 Plant)</li>
+                <li>Godrej Consumer Products – Maraimalai Nagar</li>
+                <li>Natural Remedies – Hosur</li>
+                <li class="reveal">Tata Steel Processing - Thiruninravur</li>
+                <li class="reveal">Praxair India Pvt. Ltd – Sriperumbudur</li>
+                <li class="reveal">Frooti Beverages – Thandalam Post (Parle Agro Group)</li>
+                <li class="reveal">Murugan IDLI Shop – Ambattur Ind. Estate</li>
+                <li class="reveal">Reliance Ind. Ltd - Minjur</li>
+                <li class="reveal">Amalgamation Valeo – Sriperumbudur</li>
+                <li class="reveal">BMW India Pvt. Ltd – Mahindra City</li>
+                <li class="reveal">Royal Enfield – Oragadam</li>
+                <li class="reveal">Rane Madras – Velachery</li>
+                <li class="reveal">Rane TRW - Guduvanchery</li>
+                <li class="reveal">ADDISON & CO. LTD - CHENNAI</li>
+                <li class="reveal">BRAKES INDIA PVT.LTD - SHOLINGAR, VELLORE DIST</li>
+                <li class="reveal">NTNNE MANUFACTURING INDIA PVT.LTD - MAHINDRA CITY</li>
+                <li class="reveal">FRITZMEIER MOTHERSON CABIN ENG.PVT.LTD - KANCHEEPURAM</li>
+                <li class="reveal">GANGA SWEETS - ALAMATHI</li>
+                <li class="reveal">FREINS ENGINEERING LTD - MARAIMALAI NAGAR</li>
+                <li class="reveal">RELIANCE INDUSTRIES LTD - MINJUR</li>
+                <li class="reveal">VASTRAKALA EXPORTS PVT.LTD - ALWARPET</li>
+                <li class="reveal">HANIL TUBE INDIA PVT.LTD - IRUNGATTUKOTTAI</li>
+                <li class="reveal">KEF INFRASTRUCTURE PVT.LTD - KRISHNAGIRI</li>
+                <li class="reveal">MANTRA GOLD COATINGS - AMBATTUR IND. ESTATE</li>
+                <li class="reveal">DIGNITY INNOVATIONS - AMBATTUR IND.ESTATE</li>
+                <li class="reveal">AUDI SERVICE CENTRE - AMBATTUR, ANNASALAI ETC</li>
+                <li class="reveal">ROCA BATHROOMS PRODUCTS - RANIPET</li>
+                <li class="reveal">EAGLE PRESS PVT.LTD - TONDIARPET , ROYAPURAM </li>
+                <li class="reveal">ALCHYMARS ICMSM PVT.LTD - T.NAGAR</li>
+                <li class="reveal">SOUTH INDIA SURGICALS - CHENNAI</li>
+                <li class="reveal">ULTRA TECH CEMENTS - ARAKKONAM</li>
+                <li class="reveal">ROYAL ENFIELD - ORAGADAM</li>
+                <li class="reveal">HARSHA TOYOTA AUTOMOBILES PVT.LTD - VELAPPANCHAVADI</li>
+                <li class="reveal">CARBORANDUM UNIVERSAL LTD - TIRUVOTTIYUR</li>
+                <li class="reveal">VENTURE POWER SYSTEMS ( INDIA ) PVT.LTD - TAMBARAM MEPZ </li>
+                <li class="reveal">POWER SOAPS - PERIYAPALAYAM</li>
+                <!-- <li>CAFOMA AUTOPARTS PVT.LTD  - RANIPET</li> -->
+                <!-- <li></li> -->
+
+            </div>
+            <div class="client-img reveal-client">
+                <img src="./images/bg15.png" alt="">
+            </div>
+
+            <div class="client-img2 reveal-client">
+                <img src="./images/bg16.png" alt="">
+            </div>
+        </div>
+
+
+        <div id="contact">
+            <h1 style="font-size: 2.5rem; text-align: center; position: relative; margin-top: 2rem;" class="ourpolicy">
+                Contact Us</h1>
+
+            <div class="contact-text reveal">
+
+
+                <h3 class="reveal">Y.Suthish - Proprietor & Consultant (9789932570)
+                    D.Rajendran - H.R. Consultant</h3>
+                <h3 class="reveal">
+                    32/58, Five Furlong Road, Guindy,
+                    Chennai – 600 032.
+                </h3>
+
+                <h3 class="reveal">+91- 96 77 157 310</h3>
+
+                <h3 class="reveal">ysuthish@viassociates.in</h3>
+                <div class="contact-img reveal">
+                    <img src="./images/bg17.png" alt="">
+                </div>
+
+                <div class="contact-img2 reveal-client">
+                    <img src="./images/bg18.png" alt="">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <footer>
+            <div class="footer-main">
+                <a href="" class="logo">
+                    <h2>V<span style="color: #F3F33B;">I</span> Associates</h2>
+                </a>
+                <h4>©2019 VI Associates. All Rights Reserved | Design by <a href="https://www.kgetechnologies.com/" target="_blank"> KGE Technologies Pvt Ltd</h4></a>
+            </div>
+        </footer>
     </div>
 
 
-    <script>
-        var loader = document.getElementById('loader-container');
-        window.addEventListener('load', () => {
-            loader.style.display = 'none';
-        })
-    </script>
+
+
+
+
+
+
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
-        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+            integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+        <script src="./script.js"></script>
+        <!-- <script src="./script2.js"></script> -->
 
+        <script>
+            var loader = document.getElementById('loader-container');
+            window.addEventListener('load', () => {
+                loader.style.display = 'none';
+            })
+
+
+        </script>
 </body>
 
 </html>
